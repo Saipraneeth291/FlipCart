@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 58px;
+    background-color: navy;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+footer {
+    height: 20vh;
+    background-color: navy;
+    color: black;
+}
+
+.container {
+    min-height: 70vh;
+    color: black;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+nav ul li {
+    padding: 0 23px;
+    list-style: none;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 417px;
+    height: 17px;
+    border-radius: 5px;
+    margin: 0 43px 0 43px;
+}
+
+.searrch button {
+    font-weight: 443px;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: oldlace;
+    font-weight: bolder;
+}
+
+.pic {
+    width: 1px;
+    height: 1px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.icons {
+    text-align: center;
+    color: wheat;
+    height: 1px;
+    width: 1px;
+}
+
+.price {
+    height: 10px;
+    color: black;
+}
